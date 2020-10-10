@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Responsive login form with social media login buttons</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<style>
+body {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+box-sizing: border-box;
+}
+img{
+
+     width: 10%;
+     margin-left:45%;
+
+
+}
+h5 {
+text-align: center;
+}
+#c{
+  text-align: center;
+}
+#l{
+  text-align: center;
+}
+form {
+border: 1px solid rgb(182, 180, 180);
+padding: 20px;
+width: 800px;
+margin-left: 20%;
+}
+input {
+width: 100%;
+border: 1px solid #ddd;
+padding: 5px 10px;
+height: 45px;
+margin: 0px 0px 20px;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 17px;
+}
+legend{
+  text-align: center;
+  border:none;
+  display:block;
+  margin-bottom: 15px;
+
+}
+button {
+margin: 10px auto 30px;
+display: table;
+font-size: 20px;
+padding: 10px 30px;
+background-color: #57b9d4;
+border: none;
+color: #fff;
+border-radius: 4px;
+cursor: pointer;
+}
+button:hover {
+opacity: 0.8;
+}
+input[type="checkbox"] {
+height: 16px;
+width: 16px;
+margin-right: 5px;
+float: left;
+}
+
+.Social button.facebook-btn {
+/* width: 100%; */
+font-size: 18px;
+margin: 0px 0px 10px;
+}
+.Social button.google-btn {
+background-color: white;
+color: black;
+}
+.Social button.facebook-btn {
+background-color: white;
+
+color: black;
+}
+.Social {
+border-top: 1px solid #ddd;
+padding-top: 30px;
+margin-top: 30px;
+}
+.Social button i {
+margin-right: 5px;
+font-size: 20px;
+}
+/* span .a{
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+} */
+span .b{
+  display: inline-block;
+ width: 100px;
+ height: 100px;
+ padding: 5px;
+
+}
+.float-child {
+    width: 50%;
+    float: left;
+
+    border: 1px solid gray;
+}
+@media (max-width: 1000px) {
+form {
+width: 100%;
+margin-left: 0px;
+}
+}
+
+</style>
+</head>
+<body>
+    <img id="img" src="logo-letter-p-glitch-distortion-vector-22855180.jpg"
+    alt="https://www.google.co.in/search?hl=en&tbm=isch&sxsrf=ALeKk01Ux-n5TRGlKNsugsDyHXi-SspzOQ%3A1602327500250&source=hp&biw=718&bih=772&ei=zJOBX9adDZeA9QOzo4eICA&q=p&oq=p&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzICCAAyAggAMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDUIMIWIMIYPkKaABwAHgAgAGMAYgBjAGSAQMwLjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ved=0ahUKEwjWs9uL76nsAhUXQH0KHbPRAYEQ4dUDCAc&uact=5#imgrc=dIuErbvyOrxwaM">
+
+
+<form>
+  <h5>SIGN UP</h5>
+  <h3 id="c">Create Your Account</h3>
+  <p id="l">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+  <div class="Social">
+    <div class="float-container">
+      <div class="float-child">
+        <button type="submit" class="google-btn">
+        <i class="fa fa-google" aria-hidden="true"></i> Sign Up with Goggle
+        </button>
+      </div>
+      <div class="float-child">
+        <button type="submit" class="facebook-btn">
+        <i class="fa fa-facebook" aria-hidden="true"></i> Sign Up with Facebook
+        </button>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+  <legend>or</legend>
+  <input
+  type="text"
+  placeholder="First Name"
+  name="username"
+
+  />
+  <input
+  type="text"
+  placeholder="Last Name"
+  name="username"
+
+  />
+<input
+type="email"
+placeholder="Email Address"
+name="username"
+/>
+
+
+  <input
+
+  type="password"
+  placeholder="Password"
+  name="pass"
+>
+
+
+
+
+<p>By clicking Sign Up You agree to our <a href="#">Terms of use</a> and our
+  <a href="#">Privacy Policy.</a> </p>
+<button type="submit">Sign Up</button>
+<label class="Remember"
+><input type="checkbox" name="remember" />Remember me</label>
+
+<!-- <span class="forgotPass">Forgot password?</span> -->
+
+</form>
+
+</body>
+</html>
